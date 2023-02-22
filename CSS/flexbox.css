@@ -4,8 +4,7 @@
 
 @media screen and (min-width: 320px) {
 	.main-header {
-		display: flex;
-		flex-wrap: wrap;
+
 
 	}
 
@@ -13,20 +12,26 @@
 
 
 @media screen and (min-width: 768px) {
-	nav {
+	.main-header,
+	.main-nav,
+	.row {
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	  }
+	}
+
+	.col {
+		flex: 1 33%;
+	}
+	.row {
+		flex-wrap: wrap;
+	}
+
 
 }
 
 
 @media (min-width: 1024px) {
 	nav {
-	  display: flex;
-	  justify-content: space-between;
-	  align-items: center;
+
 	}
 
 }

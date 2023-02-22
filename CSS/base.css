@@ -1,8 +1,23 @@
 /* ================================= 
   Base Element Styles
 ==================================== */
+header {
+  background-color: rgb(182, 218, 255);
+}
+
+
 body {
 	font-family: 'PT Sans', sans-serif;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+footer {
+  background-color: rgb(182, 218, 255);
+  margin: auto;
 }
 
 
@@ -11,10 +26,33 @@ body {
 ==================================== */
 
 /* ---- Navigation ---- */
-.main-header {
-	background-color: gray
+.main-header,
+.nav {
+  display: flex;
+  justify-content: space-between;
 }
 
+.main-header {
+  padding-top: 2em;
+}
+
+.nav {
+  margin-top: 1.5em;
+}
+.nav a {
+  display: block;
+  color: gray;
+  font-size: 1.1em;
+  font-weight: 300;
+  text-align: center;
+  padding: .4em;
+  
+}
+
+.nav a:hover {
+  color: #0b0b0b;
+  border-bottom-color: #52bab3;
+}
 
 /* ---- Layout Containers ---- */
 
@@ -27,4 +65,3 @@ body {
 /* ================================= 
   Media Queries
 ==================================== */
-
