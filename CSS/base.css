@@ -55,8 +55,19 @@ footer {
 }
 
 /* ---- Layout Containers ---- */
+.Intro {
+  margin-bottom: 10vh;
 
+}
 
+.title {
+  font-size: 2rem;
+
+}
+
+.feat-img {
+  width: 90%;
+}
 
 /* ---- Page Elements ---- */
 
