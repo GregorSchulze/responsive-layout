@@ -3,14 +3,30 @@
 ==================================== */
 
 @media screen and (min-width: 320px) {
-	.main-header {
-		
-	}
+	
 
-}
 
 
 @media screen and (min-width: 768px) {
+
+	.main-header,
+	.main-nav,
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+
+	.col {
+		flex: 1 50%;
+	}
+	.row {
+		flex-wrap: wrap;
+	}
+	
+}
+
+@media (min-width: 1024px) {
 	.main-header,
 	.main-nav,
 	.row {
@@ -24,13 +40,5 @@
 		flex-wrap: wrap;
 	}
 
-
-}
-
-
-@media (min-width: 1024px) {
-	nav {
-
-	}
 
 }
