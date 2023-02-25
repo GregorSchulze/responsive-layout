@@ -16,26 +16,20 @@ body {
 }
 
 
+
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
 
 /* ---- Navigation ---- */
-
-header,
-footer,
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-
 .nav {
   list-style: none;
 }
 .nav a {
   color: rgb(74, 74, 74);
   font-size: 1.5rem;
-  padding-left: 6rem;
+
   text-decoration: none;
 }
 
@@ -48,7 +42,6 @@ a {
   font-size: 2rem;
   color: rgb(74, 74, 74);
   text-decoration: none;
-
 }
 
 
@@ -68,6 +61,7 @@ font-size: 2rem;
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  font-size: 1.5rem;
 }
 
 .item-1,
