@@ -15,9 +15,6 @@ body {
   min-height: 100vh;
 }
 
-
-
-
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -29,7 +26,7 @@ body {
 .nav a {
   color: rgb(74, 74, 74);
   font-size: 1.5rem;
-
+  padding: 0 15px;
   text-decoration: none;
 }
 
