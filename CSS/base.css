@@ -23,17 +23,25 @@ body {
 .nav {
   list-style: none;
 }
+ul li {
+  margin: 3px 0;
+}
 .nav a {
   color: rgb(74, 74, 74);
   font-size: 1.5rem;
   padding: 0 15px;
   text-decoration: none;
 }
+/* Normalize Nav Padding */
+.nav { 
+  padding-left: 0;
+}
 
 .nav a:hover {
   color: rgb(99, 175, 252);
   transition: 0.75s;
 }
+
 
 a {
   font-size: 2rem;
@@ -59,18 +67,14 @@ font-size: 2rem;
   display: flex;
   flex-wrap: wrap;
   font-size: 1.5rem;
-}
-
-.item-1,
-.item-2 {
-  flex: 1;
-  padding: 20px;
+  justify-content: center;
 }
 
 
 .responsive-image {
   max-width: 100%;
   height: auto;
+  
 }
 
 
@@ -86,9 +90,6 @@ main {
   padding: 2rem;
 }
 
-.contact {
-
-}
 hr {
   margin: 10vh 0 0 0;
 
