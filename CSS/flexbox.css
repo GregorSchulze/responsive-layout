@@ -1,7 +1,7 @@
 /* ================================= 
   Media Queries
 ==================================== */
-@media (max-width: 360px) {
+@media (min-width: 360px) {
 
 	header,
 	footer,
@@ -9,11 +9,12 @@
 	.row {
 		display: flex;
 		justify-content: center;
+		flex-direction: column;
 	}
 	
-	ul li {
-		background-color: rgb(159, 155, 155);
-		padding: 3px 15px;
+	.nav {
+		background-color: rgb(209, 209, 209);
+		padding: 10px 15px;
 	}
 
 	.col {
@@ -26,7 +27,19 @@
 	.item-2 {
 		align-items: center;
 		padding: 20px;
-}
+	}
+	footer {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+
+	.button {
+		display: flex;
+		justify-content: space-between;
+
+
+	}
 }
 
 @media (min-width: 768px) {
@@ -37,13 +50,17 @@
 	.row {
   		display: flex;
 		justify-content: space-between;
+		flex-direction: row;
 	}
 	header{
 		flex-direction: column;
 		align-items: center;
 	}
-
-
+	
+	.nav {
+		background-color: rgb(255, 255, 255);
+		padding: 3px 15px;
+	}
 	.col {
 		flex: 1 50%;
 	}
@@ -54,8 +71,10 @@
 	.item-2 {
 		flex: 1;
 		padding: 20px;
-}
-
+	}
+	.button {
+		display: none;
+	}
 }
 
 
@@ -66,6 +85,7 @@
 	.row {
   		display: flex;
   		justify-content: space-between;
+		flex-direction: row;
 	}
 	header{
 		flex-direction: row;
