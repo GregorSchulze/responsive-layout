@@ -6,6 +6,7 @@
 	header,
 	footer,
 	.nav,
+	.button,
 	.row {
 		display: flex;
 		justify-content: center;
@@ -14,7 +15,7 @@
 	
 	.nav {
 		background-color: rgb(209, 209, 209);
-		padding: 10px 15px;
+
 	}
 
 	.col {
@@ -33,13 +34,11 @@
 		justify-content: space-between;
 		flex-direction: row;
 	}
-
-	.button {
-		display: flex;
-		justify-content: space-between;
-
-
+	.footer-nav {
+		display: none;
+		
 	}
+	
 }
 
 @media (min-width: 768px) {
@@ -72,10 +71,22 @@
 		flex: 1;
 		padding: 20px;
 	}
+
+	.footer-nav {
+		display: flex;
+		list-style: none;
+
+	  }
+	.footer-nav a {
+		padding-left: 15px;
+		font-size: 1.5rem;
+	}
+
 	.button {
 		display: none;
 	}
 }
+
 
 
 @media (min-width: 1024px) {
@@ -101,6 +112,9 @@
 	.item-2 {
 	  flex: 1;
 	  padding: 20px;
+	}
+	.button {
+		display: none;
 	}
 
 }

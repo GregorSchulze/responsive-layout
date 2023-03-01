@@ -10,86 +10,83 @@
 		<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<div>
-			<header><!--/.main-header-->
-				<h1 class="name"><a href="#">Gregor Schulze</a></h1>
-				<ul class="nav">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>			  
-			</header>
+		<header id="header"><!--/.main-header-->
+			<h1 class="name"><a href="#">Gregor Schulze</a></h1>
+			<ul class="nav">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>			  
+		</header>
+		
+		<section class="flex-container">
+			<div class="item-1">
+				<p>Hi, I'm a front-end developer who loves responsive design and CSS. I recently finished The Techdegree in front-end Web Development at Treehouse and am excited to put all my skills to use!</p>
+			</div>
+			<div class="item-2">
+				<img class="responsive-image" src="images/responsive-layout-profile.png" alt="website">
+			</div>
+		</section>
 			
-			<div class="container">
-				<section class="flex-container">
-					<div class="item-1">
-						<p>Hi, I'm a front-end developer who loves responsive design and CSS. I recently finished The Techdegree in front-end Web Development at Treehouse and am excited to put all my skills to use!</p>
-					</div>
-					<div class="item-2">
-						<img class="responsive-image" src="images/responsive-layout-profile.png" alt="website">
-					</div>
-				</section>
+		<main><!-- /.Main -->
+			<h2 id="portfolio" class="title">Portfolio</h2>
+			<div class="row">
+				<div class="erstes col">
+					<img class="feat-img" src="images/portfolio-1.png" alt="Marketing Page">
+					<h2>Marketing Page</h2>
+					<p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+				</div><!--/.erstes-->
 				
-			<main><!-- /.Main -->
-				<h2 class="title">Portfolio</h2>
-				<div class="row">
-					<div class="erstes col">
-						<img class="feat-img" src="images/portfolio-1.png" alt="Marketing Page">
-						<h2>Marketing Page</h2>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, aspernatur minus! Modi illo voluptas, provident magnam aperiam deleniti quos, similique fugit recusandae eum eos officiis, quis dolorum? Error, suscipit ea.</p>
-					</div><!--/.erstes-->
-					
-					<div class="zweites col">
-						<img class="feat-img" src="images/portfolio-2.png" alt="Marketing Page">
-						<h2>Search Page</h2>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, aspernatur minus! Modi illo voluptas, provident magnam aperiam deleniti quos, similique fugit recusandae eum eos officiis, quis dolorum? Error, suscipit ea.</p>
-					</div><!--/.zweites-->
-					
-					<div class="drittes col">
-						<img class="feat-img" src="images/portfolio-3.png" alt="Marketing Page">
-						<h2>Travel App</h2>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, aspernatur minus! Modi illo voluptas, provident magnam aperiam deleniti quos, similique fugit recusandae eum eos officiis, quis dolorum? Error, suscipit ea.</p>
-					</div><!--/.drittes-->	
+				<div class="zweites col">
+					<img class="feat-img" src="images/portfolio-2.png" alt="Marketing Page">
+					<h2>Search Page</h2>
+					<p>This project searches through a specific database to find information that the user is trying to look up.</p>
+				</div><!--/.zweites-->
+				
+				<div class="drittes col">
+					<img class="feat-img" src="images/portfolio-3.png" alt="Marketing Page">
+					<h2>Travel App</h2>
+					<p>This project compares travel times based on different transportation methods and tells you the best one</p>
+				</div><!--/.drittes-->	
 
-					<div class="viertes col">
-						<img class="feat-img" src="images/portfolio-4.png" alt="Marketing Page">
-						<h2>Map of Favorite Spots</h2>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, aspernatur minus! Modi illo voluptas, provident magnam aperiam deleniti quos, similique fugit recusandae eum eos officiis, quis dolorum? Error, suscipit ea.</p>
-					</div><!--/.viertes-->	
+				<div class="viertes col">
+					<img class="feat-img" src="images/portfolio-4.png" alt="Marketing Page">
+					<h2>Map of Favorite Spots</h2>
+					<p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+				</div><!--/.viertes-->	
 
-					<div class="fünftes col">
-						<img class="feat-img" src="images/portfolio-5.png" alt="Marketing Page">
-						<h2>Photo Gallery</h2>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, aspernatur minus! Modi illo voluptas, provident magnam aperiam deleniti quos, similique fugit recusandae eum eos officiis, quis dolorum? Error, suscipit ea.</p>
-					</div><!--/.fünftes-->	
+				<div class="fünftes col">
+					<img class="feat-img" src="images/portfolio-5.png" alt="Marketing Page">
+					<h2>Photo Gallery</h2>
+					<p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+				</div><!--/.fünftes-->	
 
-					<div class="sechstes col">
-						<img class="feat-img" src="images/portfolio-6.png" alt="Marketing Page">
-						<h2>Calculator</h2>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, aspernatur minus! Modi illo voluptas, provident magnam aperiam deleniti quos, similique fugit recusandae eum eos officiis, quis dolorum? Error, suscipit ea.</p>
-					</div><!--/.sechstes-->	
-				</div>
-			</main>
+				<div class="sechstes col">
+					<img class="feat-img" src="images/portfolio-6.png" alt="Marketing Page">
+					<h2>Calculator</h2>
+					<p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+				</div><!--/.sechstes-->	
+			</div>
+		</main>
 
-				<!--/.Contact-->
-				<div class="contact">
-					<h2 class="title">Contact</h2>
-					<p>If your interested in chatting or want more information<br> about what I have been working on, i would love to hear from you!</p>
-					<p>Phone: <strong>01779348938</strong></p>
-					<p>Email: <strong>e-mail@yoursite.com</strong></p>
-				</div>
+			<!--/.Contact-->
+			<div id="contact"class="contact">
+				<h2 class="title">Contact</h2>
+				<p>If your interested in chatting or want more information<br> about what I have been working on, i would love to hear from you!</p>
+				<p>Phone: <strong>01779348938</strong></p>
+				<p>Email: <strong>e-mail@yoursite.com</strong></p>
+			</div>
 
-				<hr><!--/.Content Break-->
+			<hr><!--/.Content Break-->
 
-			<footer> <!--/.main-footer-->
-				<h1 class="name"><a href="#">Gregor</a></h1>
-				<a href="home" class="button">Home</a>
-				<ul class="footer nav">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>			  
-			</footer>
-		</div>
+		<footer> <!--/.main-footer-->
+			<h1 class="name"><a href="#">Gregor Schulze</a></h1>
+			<a href="#header" class="button">Home</a>
+			<ul class="footer-nav">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>			  
+		</footer>
 	</body>
 </html>

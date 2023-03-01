@@ -42,7 +42,6 @@ ul li {
   transition: 0.75s;
 }
 
-
 a {
   font-size: 2rem;
   color: rgb(74, 74, 74);
@@ -87,7 +86,7 @@ main {
 }
 
 .row {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 hr {
