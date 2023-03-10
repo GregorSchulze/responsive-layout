@@ -47,19 +47,18 @@
 
  
   .Einleitung {
-    flex: 1;
     margin: 1rem;
     flex-direction: column;
     justify-content: center;
     font-size: 2rem;
+    text-align: center;
   }
 
   .Intro-2 {
     order: -1;
   }
 
-  .img-Einleitung {
-    width: 100%;
+  .img-Einleitung{
     margin: 0 auto;
   }
 
@@ -68,10 +67,6 @@
       text-align: center;
       font-family: 'Montserrat', sans-serif;
   }
-
-  .Einleitung {
-    text-align: center;
-  } 
 
   .Main-title {
     Margin: 3rem 0;
@@ -115,6 +110,7 @@
 
   .main-footer {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     font-weight: bold;
     padding: 10px 5px;
@@ -135,7 +131,6 @@
   .main-nav,
   .footer-nav,
   .row,
-  .Einleitung,
   .main-footer,
   .img-Portfolio {
     display: flex;
@@ -148,21 +143,8 @@
     justify-content: center;
   }
 
-  .main-footer {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .footer-two {
-    display: none;
-  }
-
   .main-nav {
     font-size: 1.5rem;
-  }
-
-  .footer-nav {
-    font-size: 1rem;
   }
 
   ul li {
@@ -173,31 +155,30 @@
   
   .Einleitung {
     flex: 1 50%;
-    flex-wrap: wrap;
-    margin: 1rem;
     flex-direction: row;
     text-align: left;
+    margin: 3rem;
+  }
+
+  .img-Einleitung {
+    margin: 0 auto;
+  }
+
+  .Intro-1 {
+  margin: 0 2rem;
   }
 
   .Intro-2 {
     order: 0;
   }
 
-  .img-Einleitung {
-    Display: flex;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .Intro-1 {
-  margin-right: 1rem;
-}
   .Main-title {
     Text-align: center;
     Margin: 0 0 3rem 0;
   }
   main {
     padding: 3rem;
+    margin: 0 2rem;
   }
   .col,
   .img-Portfolio {
@@ -219,7 +200,22 @@
     align-items: center;
   }
   hr {
-    margin: 0 150px;
+    margin: 0 5rem;
+  }
+
+  .main-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-two {
+    display: none;
+  }
+
+  .footer-nav,
+  .namefooter {
+    font-size: 1rem;
+    margin: 0 5rem;
   }
 }
 /* ============================================== */
@@ -247,20 +243,8 @@
     padding: 0 1rem;
   }
   
-  .main-header,
-  .main-footer {
+  .main-header {
     justify-content: space-around;
-  }
-  
-  .Einleitung {
-    flex: 1;
-    margin: 5vw 10vh;
-    flex-direction: row;
-    font-size: 2rem;
-  }
-  
-  .Intro-1 {
-    margin-right: 3vh;
   }
   
   .Main-title {
@@ -282,4 +266,14 @@
     margin: 0 auto;
   }
 
+  .main-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-nav,
+  .namefooter {
+    font-size: 1rem;
+    margin: 0 1rem;
+  }
   }
