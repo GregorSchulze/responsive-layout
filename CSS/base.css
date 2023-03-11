@@ -49,8 +49,7 @@
   .Einleitung {
     margin: 1rem;
     flex-direction: column;
-    justify-content: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 
@@ -60,7 +59,9 @@
 
   .img-Einleitung{
     margin: 0 auto;
+    width: 100%;
   }
+
 
   body {
       background-color: #e0e4d9;
@@ -138,7 +139,7 @@
 
   .main-header,
   .myname {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
@@ -162,6 +163,8 @@
 
   .img-Einleitung {
     margin: 0 auto;
+    width: 100%;
+
   }
 
   .Intro-1 {
