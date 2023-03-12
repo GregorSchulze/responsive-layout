@@ -9,7 +9,7 @@
 
   ul li { 
     padding: 10px 0;
-    margin: 5px 0;  
+    margin: 5px 2rem;  
     background-color: #eef1ea;
     border-radius: 10px;
   }
@@ -32,7 +32,7 @@
   .main-nav,
   .footer-nav {
     padding-left: 0;
-    font-size: 1rem;
+  font-size: 1rem;
   }
 
   /* ---- Page Elements ---- */
@@ -47,14 +47,14 @@
 
  
   .Einleitung {
-    margin: 1rem;
+    margin: 1rem 2rem;
     flex-direction: column-reverse;
     font-size: 1.5rem;
     text-align: center;
   }
 
   .img-Einleitung{
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: 100%;
   }
 
@@ -93,7 +93,7 @@
   }
 
   hr {
-    margin: 0 15px;
+    margin: 0 2rem;
   }
 
   .Contact {
@@ -101,15 +101,15 @@
     flex-direction: column;
     align-items: center;
     font-size: 1.2rem;
-    Margin: 2.5rem 0;
+    Margin: 2.5rem 2rem;
   }
 
   .main-footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    padding: 10px 5px;
+    margin: 0 2rem;
   }
 
   .footer-nav {
@@ -148,7 +148,7 @@
   }
 
   ul li {
-    padding: 0 0 0 1rem;
+    padding: 0 3rem;
     background-color: #e0e4d9;
   }
   
@@ -160,7 +160,6 @@
   }
 
   .img-Einleitung {
-    width: 100%;
     padding: 0 0 0 1rem;
   }
 
@@ -193,7 +192,6 @@
 
   .main-footer {
     flex-direction: row;
-    justify-content: space-between;
     margin: 0 2rem;
     padding: 0;
   }
@@ -232,9 +230,9 @@
     justify-content: space-between;
   }
 
-  /* main {
-    margin: 0 1rem;
-  } */
+  ul li {
+    padding: 0 0 0 3rem;
+  }
   
   .Main-title {
     Margin: 10vh 0;
