@@ -48,20 +48,15 @@
  
   .Einleitung {
     margin: 1rem;
-    flex-direction: column;
+    flex-direction: column-reverse;
     font-size: 1.5rem;
     text-align: center;
-  }
-
-  .Intro-2 {
-    order: -1;
   }
 
   .img-Einleitung{
     margin: 0 auto;
     width: 100%;
   }
-
 
   body {
       background-color: #e0e4d9;
@@ -139,18 +134,21 @@
 
   .main-header,
   .myname {
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+  }
+  .main-header{
+    margin: 0 2rem;
   }
 
   .main-nav {
+    font-weight: bold;
     font-size: 1.5rem;
   }
 
   ul li {
-    padding: 0;
-    margin: 0 1rem;  
+    padding: 0 0 0 1rem;
     background-color: #e0e4d9;
   }
   
@@ -158,44 +156,31 @@
     flex: 1 50%;
     flex-direction: row;
     text-align: left;
-    margin: 3rem;
+    margin: 2rem;
   }
 
   .img-Einleitung {
-    margin: 0 auto;
     width: 100%;
-
-  }
-
-  .Intro-1 {
-  margin: 0 2rem;
-  }
-
-  .Intro-2 {
-    order: 0;
+    padding: 0 0 0 1rem;
   }
 
   .Main-title {
     Text-align: center;
     Margin: 0 0 3rem 0;
   }
-  main {
-    padding: 3rem;
-    margin: 0 2rem;
-  }
+
   .col,
   .img-Portfolio {
     flex: 1 50%;
     flex-wrap: wrap;
-}
+    }
   .img-Portfolio {
     width: 90%;
-    margin: 0 auto;
-}
+  }
 
   .row {
   flex-wrap: wrap;
-}
+  }
 
   .Contact {
     display: flex;
@@ -203,12 +188,14 @@
     align-items: center;
   }
   hr {
-    margin: 0 5rem;
+    margin: 0 2rem;
   }
 
   .main-footer {
     flex-direction: row;
     justify-content: space-between;
+    margin: 0 2rem;
+    padding: 0;
   }
 
   .footer-two {
@@ -218,7 +205,6 @@
   .footer-nav,
   .namefooter {
     font-size: 1rem;
-    margin: 0 5rem;
   }
 }
 /* ============================================== */
@@ -242,31 +228,22 @@
     justify-content: center;
   }
   
-  ul li {
-    padding: 0 1rem;
-  }
-  
   .main-header {
-    justify-content: space-around;
+    justify-content: space-between;
   }
+
+  /* main {
+    margin: 0 1rem;
+  } */
   
   .Main-title {
     Margin: 10vh 0;
-  }
-  
-  main {
-    padding: 3rem 3rem;
-    margin: 0 2rem;
   }
   
   .col,
   .img-Portfolio {
     flex: 1 33%;
     flex-wrap: wrap;
-  }
-  .img-Portfolio {
-    width: 90%;
-    margin: 0 auto;
   }
 
   .main-footer {
@@ -277,6 +254,5 @@
   .footer-nav,
   .namefooter {
     font-size: 1rem;
-    margin: 0 1rem;
   }
   }
